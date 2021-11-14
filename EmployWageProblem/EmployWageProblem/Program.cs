@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace EmployeeWageProblem
 {
@@ -7,8 +8,8 @@ namespace EmployeeWageProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Employee Wage Computation Problem");
-            EmployeeWageProblem employee = new EmployeeWageProblem();
-            employee.MonthlyEmployeeWage();
+            EmployeeWageProblem.MonthlyEmployeeWage("Reliance Trends", 22, 25, 126);
+            EmployeeWageProblem.MonthlyEmployeeWage("AMB Mall", 29, 27, 153);
         }
     }
 }
